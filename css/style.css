@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
@@ -22,14 +22,14 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     margin: auto;
+    padding: 0 15px;
 }
 
-.container-about{
-
-    width: 100%;
-    margin: auto;
+.container-about {
+    display: none;
 }
 .row {
     margin-left: -15px;
